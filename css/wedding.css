@@ -1,0 +1,181 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+html {
+    height: 100%;
+}
+
+a, a:hover, a:visited, a:active {
+    text-decoration: underline;
+    color: #000;
+}
+
+div#main {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    background: url(../img/sunset.jpg) no-repeat center center;
+    background-size: cover;
+
+    width: 100%;
+
+    height: 800px;
+    height: 100vh;
+}
+
+div#header {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.4);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+
+    overflow: auto;
+
+    z-index: 100;
+}
+
+div#header a {
+    color: #000;
+    text-decoration: none;
+}
+
+div#header a:hover {
+    transition: background 300ms ease
+}
+
+div#main h1 {
+    font-family: omnes-pro, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 4.0em;
+
+    padding: 0;
+    margin: 0;
+
+    line-height: 0.95em;
+    letter-spacing: 0.02em;
+
+}
+
+div#main-text {
+    position: relative;
+    top: 10em;
+    left: 10em;
+    width: 50em;
+}
+
+div#main-body {
+    margin: 0.75em 0 0 0;
+
+    font-family: myriad-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    font-size: 1.2em;
+    line-height: 1.5em;
+
+    letter-spacing: 0.03em;
+
+    /*text-transform: uppercase;*/
+
+}
+
+.section {
+    font-family: omnes-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    padding: 3em 0;
+
+    /*width: 40em;*/
+    min-height: 800px;
+    min-height: 100vh;
+
+    /*margin: 0 auto 0 auto;*/
+    /*padding: 0em;*/
+
+    /*border: 1px solid #000;*/
+}
+
+.section h3, .section h4 {
+    font-weight: 400;
+    font-weight: bold;
+}
+
+.section-body {
+    width: 40em;
+    /*border: 1px solid #F00;*/
+    margin: 5em auto;
+}
+
+ul.nav {
+    position: absolute;
+
+    margin: 1em 2em 0 0;
+
+    top: 0;
+    right: 0;
+}
+
+ul.nav li {
+    font-family: myriad-pro, sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #000;
+
+    display: inline;
+
+    margin: 0 0 0 0.5em;
+}
+
+div#things-to-do div.desc {
+    padding: 0;
+    margin: 0 0 2em 0;
+}
+
+div#things-to-do ul {
+    margin: 0;
+}
+
+div#lodging {
+    margin-left: 2em;
+}
+
+.place-heading {
+    font-weight: bold;
+}
+
+.place-addr {
+    font-size: 1em;
+    font-weight: 300;
+
+    margin: 0 0 .5em 0;
+}
+
+ul.dinner {
+    list-style: disc;
+}
+
+ul.dinner li {
+    margin-bottom: 1em;
+}
+
+div.monogram {
+    width: 174px;
+    height: 174px;
+    margin: 0 auto;
+    padding: 10em 0 0 0;
+}
+
+div.monogram img {
+    width: 174px;
+    height: 174px;
+}
